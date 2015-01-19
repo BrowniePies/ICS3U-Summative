@@ -11,5 +11,8 @@ int main()
     cout << "Please enter your name to continue." << endl;
     cin >> Name //Asks user for their name
     cout << "Hello " << Name << "." << endl;
+    cout << "Time to go on an adventure!" << endl;
+
+    cout << "You enter a dank forest." << endl;
     return 0;
 }
