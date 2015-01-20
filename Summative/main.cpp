@@ -7,7 +7,12 @@ using namespace std;
 
 int main()
 {
+<<<<<<< HEAD
     string Name;
+=======
+    char Name[50];
+    char helptown[3];
+>>>>>>> ed2f85e01fa0be7dc0ceb7628c580ea0a9c12b38
 
     cout << "Welcome to our game!" << endl;
     cout << "Please enter your name to continue." << endl;
@@ -25,8 +30,8 @@ int main()
     cout << "You enter a small town at the outskirts of the great Kingdom of Hearts" << endl;
     cout << "This town has been raveged by the goblins and kobolds" << endl;
     cout << "It seems as though there will be another attack later this day" << endl;
-    cout << "Do you stay and help them defend, or do you leave and carry on?" << endl;
-
+    cout << "Do you stay and help them defend, or do you leave and carry on? (yes or no)" << endl;
+    cin >> helptown;
 
 
 
