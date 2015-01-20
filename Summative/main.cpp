@@ -28,7 +28,14 @@ int main()
     cout << "It seems as though there will be another attack later this day" << endl;
     cout << "Do you stay and help them defend, or do you leave and carry on? (yes or no)" << endl;
     cin >> helptown;
-
+    if (helptown == "yes")
+    {
+        cout << "YES" << endl;
+    }
+    if (helptown == "no")
+    {
+        cout << "You decide to leave the town for dead." << endl;
+    }
 
 
 
