@@ -21,6 +21,8 @@ int main()
     cout << "\nAs you can see, you live in a time of Futuristic Technology, but magic and monsters have returned to the lands"<<endl<<endl;
     cout << "Press any key to continue." << endl;
     getch();
+    system("CLS");
+    cout << "You enter a small town at the outskirts of the great kingdom of INSERT NAME" << endl;
 
 
 
