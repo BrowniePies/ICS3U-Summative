@@ -7,12 +7,12 @@ using namespace std;
 
 int main()
 {
-    char Name[50];
-    char helptown[3];
+    string Name;
+    string helptown;
 
     cout << "Welcome to our game!" << endl;
     cout << "Please enter your name to continue." << endl;
-    cin >> Name; //Asks user for their name
+    cin >> Name;
     cout << "Hello " << Name << "." << endl;
     cout << "\nPress any key to continue." << endl;
     getch();
