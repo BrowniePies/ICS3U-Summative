@@ -7,12 +7,8 @@ using namespace std;
 
 int main()
 {
-<<<<<<< HEAD
     string Name;
-=======
-    char Name[50];
-    char helptown[3];
->>>>>>> ed2f85e01fa0be7dc0ceb7628c580ea0a9c12b38
+    string helptown;
 
     cout << "Welcome to our game!" << endl;
     cout << "Please enter your name to continue." << endl;
