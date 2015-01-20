@@ -11,7 +11,6 @@ int main()
     cout << "Please enter your name to continue." << endl;
     cin >> Name; //Asks user for their name
     cout << "Hello " << Name << "." << endl;
-    Sleep(3000);
     system("CLS");
     cout << "You go on a adventure!" << endl;
     return 0;
