@@ -34,10 +34,12 @@ int main()
         //Make shit happen here and change some values or something
         //Also start working on a combat system
         //It doesn't have to be great, just random numbers and shit
+        //Also have our game based around karma, and your karma changes the ending
     }
     else if (helptown == "no")
     {
         cout << "You decide to leave the town for dead." << endl;
+
     }
     else
     {
