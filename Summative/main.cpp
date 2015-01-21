@@ -26,17 +26,21 @@ int main()
     cout << "You enter a small town at the outskirts of the great Kingdom of Hearts" << endl;
     cout << "This town has been raveged by the goblins and kobolds" << endl;
     cout << "It seems as though there will be another attack later this day" << endl;
-    cout << "Do you stay and help them defend, or do you leave and carry on? (yes or no)" << endl;
+    cout << "Do you stay and help them defend, or do you leave and carry on?" << endl;
     cin >> helptown;
     if (helptown == "yes")
     {
         cout << "YES" << endl;
     }
-    if (helptown == "no")
+    else if (helptown == "no")
     {
         cout << "You decide to leave the town for dead." << endl;
     }
-
+    else
+    {
+        cout << "Your answer was too stange to be taken seriously."
+    }
+    cout << "And so, you move on with your journey." << endl;
 
 
 
