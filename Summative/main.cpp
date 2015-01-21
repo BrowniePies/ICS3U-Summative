@@ -12,7 +12,7 @@ int main()
 
     cout << "Welcome to our game!" << endl;
     cout << "Please enter your name to continue." << endl;
-    cin >> Name;
+    getline(cin,Name);
     cout << "Hello " << Name << "." << endl;
     cout << "\nPress any key to continue." << endl;
     getch();
@@ -27,12 +27,12 @@ int main()
     cout << "This town has been raveged by the goblins and kobolds" << endl;
     cout << "It seems as though there will be another attack later this day" << endl;
     cout << "Do you stay and help them defend, or do you leave and carry on?" << endl;
-    cin >> helptown;
-    if (helptown == "yes")
+    getline(cin,helptown);
+    if (helptown == "yes" or helptown == "stay")
     {
         cout << "YES" << endl;
     }
-    else if (helptown == "no")
+    else if (helptown == "no" or helptown == "carry on")
     {
         cout << "You decide to leave the town for dead." << endl;
     }
