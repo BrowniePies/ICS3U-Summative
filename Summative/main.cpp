@@ -12,7 +12,7 @@ int main()
 
     cout << "Welcome to our game!" << endl;
     cout << "Please enter your name to continue." << endl;
-    cin >> Name;
+    getline(cin, Name);
     cout << "Hello " << Name << "." << endl;
     cout << "\nPress any key to continue." << endl;
     getch();
