@@ -32,6 +32,8 @@ int main()
     {
         cout << "YES" << endl;
         //Make shit happen here and change some values or something
+        //Also start working on a combat system
+        //It doesn't have to be great, just random numbers and shit
     }
     else if (helptown == "no")
     {
