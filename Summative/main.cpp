@@ -38,7 +38,7 @@ int main()
     }
     else
     {
-        cout << "Your answer was too stange to be taken seriously."
+        cout << "Your answer was too stange to be taken seriously." << endl;
     }
     cout << "And so, you move on with your journey." << endl;
 
