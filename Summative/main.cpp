@@ -6,11 +6,8 @@
 
 using namespace std;
 
-<<<<<<< HEAD
 int combat();
-=======
 void pressAnyKey();
->>>>>>> origin/master
 
 int main()
 {
