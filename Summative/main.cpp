@@ -3,6 +3,12 @@
 #include <conio.h>
 #include <string>
 
+
+
+//http://www.learncpp.com/cpp-tutorial/18-programs-with-multiple-files/
+
+
+
 using namespace std;
 
 int main()
@@ -10,6 +16,7 @@ int main()
     string Name;
     string helptown;
     int karma = 0;
+    bool stdLoopCond
 
     //Intoduction
     cout << "Welcome to our game!" << endl;
@@ -31,6 +38,7 @@ int main()
     cout << "This town has been raveged by the goblins and kobolds" << endl;
     cout << "It seems as though there will be another attack later this day" << endl;
     cout << "Do you stay and help them defend, or do you leave and carry on?" << endl;
+<<<<<<< HEAD
     getline(cin,helptown);
     if (helptown == "yes" or helptown == "Yes" or helptown == "stay")
     {
@@ -45,11 +53,31 @@ int main()
     else if (helptown == "no" or helptown == "No" or helptown == "carry on")
     {
         cout << "You decide to leave the town for dead." << endl;
+=======
+    stdLoopCond=false;
 
-    }
-    else
-    {
-        cout << "Your answer was too stange to be taken seriously." << endl;
+    while(stdLoopCond=false){
+
+        getline(cin,helptown);
+        if (helptown == "yes" or helptown == "Yes" or helptown == "stay")
+        {
+            cout << "You stay and wait for the attack to commence" << endl;
+            //Make shit happen here and change some values or something
+            //Also start working on a combat system
+            //It doesn't have to be great, just random numbers and shit
+            //Also have our game based around karma, and your karma changes the ending
+        }
+        else if (helptown == "no" or helptown == "No" or helptown == "carry on")
+        {
+            cout << "You decide to leave the town for dead." << endl;
+
+        }
+        else
+        {
+            cout << "Your answer was too strange to be taken seriously." << endl;
+        }
+>>>>>>> origin/master
+
     }
     cout << "And so, you move on with your journey." << endl;
 
