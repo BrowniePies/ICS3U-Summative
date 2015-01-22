@@ -2,6 +2,7 @@
 #include <windows.h>
 #include <conio.h>
 #include <string>
+#include "global.h"
 
 using namespace std;
 
