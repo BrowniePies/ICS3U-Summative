@@ -6,16 +6,8 @@
 
 using namespace std;
 
-<<<<<<< HEAD
-int combat();
-=======
-
-
 //Function Forward Declarations
-
 int combat();
-
->>>>>>> origin/master
 void pressAnyKey();
 
 int main()
@@ -23,6 +15,7 @@ int main()
     string Name;
     string helptown;
     int health = 20;
+    int monsterhealth = 0;
     int damage = 0;
     int karma = 0;
     bool stdLoopCond;
