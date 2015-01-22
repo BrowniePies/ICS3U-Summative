@@ -49,10 +49,9 @@ int main()
         if (helptown == "yes" or helptown == "Yes" or helptown == "stay")
         {
             cout << "You stay and wait for the attack to commence" << endl;
-            //Make shit happen here and change some values or something
-            //Also start working on a combat system
-            //It doesn't have to be great, just random numbers and shit
-            //Also have our game based around karma, and your karma changes the ending
+
+
+            karma+=25;
             stdLoopCond = true;
         }
         else if (helptown == "no" or helptown == "No")
@@ -69,6 +68,8 @@ int main()
 
     }
     cout << "And so, you move on with your journey." << endl;
+
+    pressAnyKey();
 
     //Starts "Cry for Help" Section
     cout<< "While walking on the main road, you hear a cry from within the woods." << endl;
