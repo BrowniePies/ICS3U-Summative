@@ -3,6 +3,12 @@
 #include <conio.h>
 #include <string>
 
+
+
+//http://www.learncpp.com/cpp-tutorial/18-programs-with-multiple-files/
+
+
+
 using namespace std;
 
 int main()
@@ -10,6 +16,7 @@ int main()
     string Name;
     string helptown;
     int karma = 0;
+    bool stdLoopCond
 
     //Intoduction
     cout << "Welcome to our game!" << endl;
@@ -31,6 +38,10 @@ int main()
     cout << "This town has been raveged by the goblins and kobolds" << endl;
     cout << "It seems as though there will be another attack later this day" << endl;
     cout << "Do you stay and help them defend, or do you leave and carry on?" << endl;
+    stdLoopCond=false;
+
+    while(stdLoopCond=false){
+
     getline(cin,helptown);
     if (helptown == "yes" or helptown == "Yes" or helptown == "stay")
     {
@@ -48,6 +59,7 @@ int main()
     else
     {
         cout << "Your answer was too stange to be taken seriously." << endl;
+    }
     }
     cout << "And so, you move on with your journey." << endl;
 
