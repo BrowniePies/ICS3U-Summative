@@ -14,6 +14,7 @@ int main()
 {
     string Name;
     string helptown;
+    string monstername;
     int health = 20;
     int monsterhealth = 0;
     int damage = 0;
