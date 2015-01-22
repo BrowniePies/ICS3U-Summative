@@ -35,6 +35,8 @@ int main()
     if (helptown == "yes" or helptown == "Yes" or helptown == "stay")
     {
         cout << "You stay and wait for the attack to commence" << endl;
+        cout << "Press any key to continue." << endl;
+        getch();
         //Make shit happen here and change some values or something
         //Also start working on a combat system
         //It doesn't have to be great, just random numbers and shit
