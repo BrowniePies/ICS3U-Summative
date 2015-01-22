@@ -6,14 +6,23 @@
 
 using namespace std;
 
+<<<<<<< HEAD
 
 //Function Forward Declarations
+=======
+<<<<<<< HEAD
+int combat();
+=======
+>>>>>>> origin/master
 void pressAnyKey();
+>>>>>>> origin/master
 
 int main()
 {
     string Name;
     string helptown;
+    int health = 20;
+    int damage = 0;
     int karma = 0;
     bool stdLoopCond;
 
