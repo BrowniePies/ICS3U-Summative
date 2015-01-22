@@ -6,16 +6,13 @@
 
 using namespace std;
 
-<<<<<<< HEAD
+
 
 //Function Forward Declarations
-=======
-<<<<<<< HEAD
+
 int combat();
-=======
->>>>>>> origin/master
+
 void pressAnyKey();
->>>>>>> origin/master
 
 int main()
 {
@@ -41,7 +38,7 @@ int main()
     system("CLS");
 
     //First Choice
-    cout << "You enter a small town at the outskirts of the great Kingdom of Ylisse" << endl;
+    cout << "You enter a small town at the outskirts of the great domain of Hallahuhacber" << endl;
     cout << "This town has been raveged by the goblins and kobolds" << endl;
     cout << "It seems as though there will be another attack later this day" << endl;
     cout << "Do you stay and help them defend?" << endl;
@@ -88,7 +85,7 @@ int main()
 
 
 
-//processes
+//Functions
 
 void pressAnyKey(){
 
