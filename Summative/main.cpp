@@ -5,10 +5,14 @@
 
 using namespace std;
 
+int combat();
+
 int main()
 {
     string Name;
     string helptown;
+    int health = 20;
+    int damage = 0;
     int karma = 0;
     bool stdLoopCond;
 
