@@ -6,6 +6,8 @@
 
 using namespace std;
 
+
+//Function Forward Declarations
 void pressAnyKey();
 
 int main()
@@ -40,6 +42,7 @@ int main()
     while(stdLoopCond == false){
 
         getline(cin,helptown);
+
         if (helptown == "yes" or helptown == "Yes" or helptown == "stay")
         {
             cout << "You stay and wait for the attack to commence" << endl;
@@ -49,7 +52,7 @@ int main()
             //Also have our game based around karma, and your karma changes the ending
             stdLoopCond = true;
         }
-        else if (helptown == "no" or helptown == "No" or helptown == "carry on")
+        else if (helptown == "no" or helptown == "No")
         {
             cout << "You decide to leave the town for dead." << endl;
             karma-=25;
@@ -65,13 +68,18 @@ int main()
     cout << "And so, you move on with your journey." << endl;
 
     //Starts "Cry for Help" Section
-    cout<< "While walking through " << endl;
+    cout<< "While walking on the main road, you hear a cry from within the woods." << endl;
+    cout<< "'Help! I'm being mugged!' cries the feminine voice"<<endl;
 
 
     return 0;
 
 
 }
+
+
+
+//processes
 
 void pressAnyKey(){
 
