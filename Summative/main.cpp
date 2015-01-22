@@ -42,24 +42,25 @@ int main()
 
     while(stdLoopCond=false){
 
-    getline(cin,helptown);
-    if (helptown == "yes" or helptown == "Yes" or helptown == "stay")
-    {
-        cout << "You stay and wait for the attack to commence" << endl;
-        //Make shit happen here and change some values or something
-        //Also start working on a combat system
-        //It doesn't have to be great, just random numbers and shit
-        //Also have our game based around karma, and your karma changes the ending
-    }
-    else if (helptown == "no" or helptown == "No" or helptown == "carry on")
-    {
-        cout << "You decide to leave the town for dead." << endl;
+        getline(cin,helptown);
+        if (helptown == "yes" or helptown == "Yes" or helptown == "stay")
+        {
+            cout << "You stay and wait for the attack to commence" << endl;
+            //Make shit happen here and change some values or something
+            //Also start working on a combat system
+            //It doesn't have to be great, just random numbers and shit
+            //Also have our game based around karma, and your karma changes the ending
+        }
+        else if (helptown == "no" or helptown == "No" or helptown == "carry on")
+        {
+            cout << "You decide to leave the town for dead." << endl;
 
-    }
-    else
-    {
-        cout << "Your answer was too stange to be taken seriously." << endl;
-    }
+        }
+        else
+        {
+            cout << "Your answer was too strange to be taken seriously." << endl;
+        }
+
     }
     cout << "And so, you move on with your journey." << endl;
 
