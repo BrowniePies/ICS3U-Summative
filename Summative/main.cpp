@@ -6,7 +6,16 @@
 
 using namespace std;
 
+<<<<<<< HEAD
 int combat();
+=======
+
+
+//Function Forward Declarations
+
+int combat();
+
+>>>>>>> origin/master
 void pressAnyKey();
 
 int main()
@@ -33,7 +42,7 @@ int main()
     system("CLS");
 
     //First Choice
-    cout << "You enter a small town at the outskirts of the great Kingdom of Ylisse" << endl;
+    cout << "You enter a small town at the outskirts of the great domain of Hallahuhacber" << endl;
     cout << "This town has been raveged by the goblins and kobolds" << endl;
     cout << "It seems as though there will be another attack later this day" << endl;
     cout << "Do you stay and help them defend?" << endl;
@@ -43,6 +52,7 @@ int main()
     while(stdLoopCond == false){
 
         getline(cin,helptown);
+
         if (helptown == "yes" or helptown == "Yes" or helptown == "stay")
         {
             cout << "You stay and wait for the attack to commence" << endl;
@@ -52,7 +62,7 @@ int main()
             //Also have our game based around karma, and your karma changes the ending
             stdLoopCond = true;
         }
-        else if (helptown == "no" or helptown == "No" or helptown == "carry on")
+        else if (helptown == "no" or helptown == "No")
         {
             cout << "You decide to leave the town for dead." << endl;
             karma-=25;
@@ -68,13 +78,18 @@ int main()
     cout << "And so, you move on with your journey." << endl;
 
     //Starts "Cry for Help" Section
-    cout<< "While walking through " << endl;
+    cout<< "While walking on the main road, you hear a cry from within the woods." << endl;
+    cout<< "'Help! I'm being mugged!' cries the feminine voice"<<endl;
 
 
     return 0;
 
 
 }
+
+
+
+//Functions
 
 void pressAnyKey(){
 
