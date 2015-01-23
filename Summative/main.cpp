@@ -49,6 +49,7 @@ int main()
             cout << "You stay and wait for the attack to commence" << endl;
             cout << "A kobold approaches...." << endl;
             pressAnyKey();
+            system("CLS");
             combat("Kobold", 20);
             karma+=25;
             stdLoopCond = true;

@@ -1,10 +1,10 @@
 # depslib dependency file v1.0
-1422031933 source:c:\users\akhir alibhai\documents\github\ics3u-summative\summative\main.cpp
+1422033350 source:c:\users\akhir alibhai\documents\github\ics3u-summative\summative\main.cpp
 	<iostream>
 	<windows.h>
 	<conio.h>
 	<string>
-	"global.h"
+	"combat.cpp"
 
 1421778289 source:d:\braedon leonard\braedon leonard\c++\github\ics3u-summative\summative\main.cpp
 	<iostream>
@@ -12,4 +12,10 @@
 	<conio.h>
 
 1421953694 c:\users\akhir alibhai\documents\github\ics3u-summative\summative\global.h
+
+1422033845 c:\users\akhir alibhai\documents\github\ics3u-summative\summative\combat.cpp
+	<iostream>
+	<windows.h>
+	<conio.h>
+	<string>
 
