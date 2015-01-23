@@ -6,10 +6,20 @@
 	<string>
 	"global.h"
 
-1421778289 source:d:\braedon leonard\braedon leonard\c++\github\ics3u-summative\summative\main.cpp
+1422033232 source:d:\braedon leonard\braedon leonard\c++\github\ics3u-summative\summative\main.cpp
 	<iostream>
 	<windows.h>
 	<conio.h>
+	<string>
+	"combat.cpp"
 
 1421953694 c:\users\akhir alibhai\documents\github\ics3u-summative\summative\global.h
+
+1422033517 d:\braedon leonard\braedon leonard\c++\github\ics3u-summative\summative\combat.cpp
+	<iostream>
+	<string>
+
+1422033517 source:d:\braedon leonard\braedon leonard\c++\github\ics3u-summative\summative\combat.cpp
+	<iostream>
+	<string>
 
