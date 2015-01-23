@@ -4,8 +4,8 @@
 using namespace std;
 
 void combat(string monstername, int monsterhealth){
-    string choice;
 
+    string choice;
 
     cout << "The fight begins!" << endl;
     while (monsterhealth >= 0){
@@ -13,4 +13,5 @@ void combat(string monstername, int monsterhealth){
         cout << "What do you do?" << endl;
         cin >> choice;
     }
+
 }
